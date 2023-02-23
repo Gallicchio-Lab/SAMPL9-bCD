@@ -1,0 +1,131 @@
+pnitro7
+                    3D
+ Structure written by MMmdl.
+ 26 26  0  0  1  0            999 V2000
+   26.1028  108.2528   40.1099 C   0  0  0  0  0  0
+   25.3282  107.2324   39.5654 C   0  0  0  0  0  0
+   24.1288  107.5057   38.8964 C   0  0  0  0  0  0
+   23.7335  108.8463   38.7888 C   0  0  0  0  0  0
+   24.5023  109.8736   39.3294 C   0  0  0  0  0  0
+   25.6989  109.5880   39.9963 C   0  0  0  0  0  0
+   27.0180  107.9959   40.6272 H   0  0  0  0  0  0
+   25.6710  106.2209   39.6996 H   0  0  0  0  0  0
+   22.8219  109.1167   38.2838 H   0  0  0  0  0  0
+   24.1614  110.8956   39.2267 H   0  0  0  0  0  0
+   26.5209  110.6782   40.5761 N   0  3  0  0  0  0
+   26.1191  111.8327   40.4639 O   0  0  0  0  0  0
+   27.5690  110.3812   41.1417 O   0  5  0  0  0  0
+   22.0227  106.7635   37.7581 C   0  0  0  0  0  0
+   22.0961  107.5172   36.9723 H   0  0  0  0  0  0
+   21.3512  107.1496   38.5272 H   0  0  0  0  0  0
+   21.5530  105.8802   37.3223 H   0  0  0  0  0  0
+   23.6410  105.0393   38.5435 C   0  0  0  0  0  0
+   24.7136  104.8682   38.4604 H   0  0  0  0  0  0
+   23.3404  104.3957   37.7150 H   0  0  0  0  0  0
+   23.2036  104.4198   39.8946 C   0  0  0  0  0  0
+   22.1789  104.7889   39.9652 H   0  0  0  0  0  0
+   22.9469  103.3596   39.8886 H   0  0  0  0  0  0
+   23.6894  105.0297   41.0791 O   0  0  0  0  0  0
+   23.0113  104.9982   41.7591 H   0  0  0  0  0  0
+   23.3387  106.4659   38.3290 N   0  0  0  0  0  0
+  1  2  2  0  0  0
+  1  6  1  0  0  0
+  1  7  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  3  4  2  0  0  0
+  3 26  1  0  0  0
+  4  5  1  0  0  0
+  4  9  1  0  0  0
+  5  6  2  0  0  0
+  5 10  1  0  0  0
+  6 11  1  0  0  0
+ 11 12  2  0  0  0
+ 11 13  1  0  0  0
+ 14 15  1  0  0  0
+ 14 16  1  0  0  0
+ 14 17  1  0  0  0
+ 14 26  1  0  0  0
+ 18 19  1  0  0  0
+ 18 20  1  0  0  0
+ 18 21  1  0  0  0
+ 18 26  1  0  0  0
+ 21 22  1  0  0  0
+ 21 23  1  0  0  0
+ 21 24  1  0  0  0
+ 24 25  1  0  0  0
+M  CHG  2  11   1  13  -1
+M  END
+> <s_m_entry_id>
+172
+
+> <s_m_entry_name>
+Structure169
+
+> <s_m_source_file>
+ligprep_6.maegz
+
+> <i_m_source_file_index>
+1
+
+> <i_lp_mmshare_version>
+47013
+
+> <s_epik_input>
+W2NIXTFbY0hdYyhbTitdKD1PKVtPLV0pW2NIXVtjSF1jMU4oW0NIM10pW0NIMl1bQ0gyXVtPSF0=
+
+> <s_epik_cmdline>
+J2VwaWtfcHl0aG9uJywgJy1waCcsICc3LjAnLCAnLXRuJywgJzgnLCAnLW1hJywgJzIwMCcsICctaW1hZScsICc8aW5maWxlLm1hZT4nLCAnLW9tYWUnLCAnPG91dGZpbGUubWFlPic=
+
+> <r_epik_Ionization_Penalty>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+2
+
+> <i_f3d_flags>
+0
+
+> <s_lp_Force_Field>
+OPLS3e
+
+> <r_lp_Energy>
+28.634799
+
+> <b_lp_Chiralities_Consistent>
+1
+
+> <s_lp_Variant>
+pnitro7-1
+
+> <s_m_job_name>
+ligprep_6
+
+> <r_lp_tautomer_probability>
+1
+
+> <s_m_subgroup_title>
+ligprep_6-out1
+
+> <s_m_subgroupid>
+ligprep_6-out1
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$

@@ -1,0 +1,13 @@
+#in bcd-PHM0aspS-PMZ1aspS
+cp bcd-PHM0aspS-PMZ1aspS_ckpt.xml ~/Dropbox/sims/SAMPL9/work/FFEngine/postc/bCDspSf/receptor/bcd-PHM0aspS-PMZ1aspS-r21_ckpt.xml
+
+#in receptor
+python ../scripts/applycoord_from_xml.py ~/Dropbox/sims/SAMPL9/work/FFEngine/roivant/all_receptors/bCD/ligand.sdf bcd-PHM0aspS-PMZ1aspS-r21_ckpt.xml 0 '-21' '89' '23' > bCDspS.sdf
+bash ../scripts/setupreceptor.sh
+
+#in ligand
+cp ~/Dropbox/SAMPL9-eglab/bCD/ligsdfs/PMZ1aspS.sdf .
+python ../scripts/applycoord_from_xml.py PMZ1aspS.sdf ../receptor/bcd-PHM0aspS-PMZ1aspS-r21_ckpt.xml 173 '9' '89' '23' > PMZ1aspS-q.sdf
+
+#align ligands in Maestro and export sdfs
+bash ../scripts/setupligands.sh

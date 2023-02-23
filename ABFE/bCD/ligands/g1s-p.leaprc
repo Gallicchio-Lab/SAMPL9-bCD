@@ -1,0 +1,25 @@
+ADDATOMTYPES {
+    { "AA"    "C"    "sp3" }
+    { "AB"    "C"    "sp3" }
+    { "AD"    "C"    "sp3" }
+    { "AE"    "C"    "sp3" }
+    { "AF"    "C"    "sp3" }
+    { "AH"    "C"    "sp3" }
+    { "AI"    "C"    "sp3" }
+    { "AJ"    "O"    "sp3" }
+    { "AK"    "H"    "sp3" }
+    { "AN"    "H"    "sp3" }
+    { "AO"    "H"    "sp3" }
+    { "AP"    "H"    "sp3" }
+    { "AQ"    "H"    "sp3" }
+    { "AV"    "H"    "sp3" }
+    { "AW"    "H"    "sp3" }
+    { "AX"    "H"    "sp3" }
+    { "AY"    "H"    "sp3" }
+    { "AZ"    "H"    "sp3" }
+    { "BB"    "H"    "sp3" }
+    { "BC"    "H"    "sp3" }
+    { "BD"    "H"    "sp3" }
+    { "BF"    "H"    "sp3" }
+}
+

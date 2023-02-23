@@ -1,0 +1,8 @@
+python ../scripts/applycoord_from_xml.py bcd.mol2 bcd-PHM0apsS-PMZ1apsS-r11_ckpt.xml 0 '-21' '89' '23' > bcd-q.mol2
+
+python ../scripts/applycoord_from_xml.py ~/Dropbox/sims/SAMPL9/work/FFEngine/roivant/all_receptors/bCD/ligand.sdf bcd-PHM0apsS-PMZ1apsS-r11_ckpt.xml 0 '-21' '89' '23' > bcd-q.sdf
+
+
+python ../scripts/applycoord_from_xml.py PMZ1apsS.sdf ../receptor/bcd-PHM0apsS-PMZ1apsS-r11_ckpt.xml 173 '9' '89' '23' > PMZ1apsS-q.sdf
+
+

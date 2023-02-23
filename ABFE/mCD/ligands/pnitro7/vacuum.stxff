@@ -1,0 +1,102 @@
+combination_rule LB
+special_bond None None 0.833 None None 0.5 
+qmodel None
+
+atomtype c_4h3 LJ12_6 12.011 3.3977 0.1078 gaff nan nan
+atomtype c_4n LJ12_6 12.011 3.3977 0.1078 gaff nan nan
+atomtype n_3xa LJ12_6 14.007 3.19 0.215 gaff nan nan
+atomtype c_4nm LJ12_6 12.011 3.3977 0.1078 gaff nan nan
+atomtype c_3a LJ12_6 12.011 3.3152 0.0988 gaff nan nan
+atomtype c_3ah LJ12_6 12.011 3.3152 0.0988 gaff nan nan
+atomtype n_3=o2 LJ12_6 14.007 3.3651 0.0858 gaff nan nan
+atomtype o_1no LJ12_6 15.999 3.0481 0.1463 gaff nan nan
+atomtype h_1c4 LJ12_6 1.008 2.6002 0.0208 gaff nan nan
+atomtype h_1c4ew LJ12_6 1.008 2.422 0.0208 gaff nan nan
+atomtype h_1a LJ12_6 1.008 2.6255 0.0161 gaff nan nan
+atomtype c_4o LJ12_6 12.011 3.3977 0.1078 gaff nan nan
+atomtype o_2h LJ12_6 15.999 3.2429 0.093 gaff nan nan
+atomtype h_1o LJ12_6 1.008 0.5379 0.0047 gaff nan nan
+
+bondterm c_4h3 c_4n harmonic 1.538 232.5 gaff nan nan
+bondterm c_4h3 h_1c4 harmonic 1.097 375.9 gaff nan nan
+bondterm c_4n n_3xa harmonic 1.464 261.8 gaff nan nan
+bondterm c_4n h_1c4ew harmonic 1.097 375.9 gaff nan nan
+bondterm n_3xa c_4nm harmonic 1.464 261.8 gaff nan nan
+bondterm n_3xa c_3a harmonic 1.386 347.1 gaff nan nan
+bondterm c_4nm h_1c4ew harmonic 1.097 375.9 gaff nan nan
+bondterm c_3a c_3ah harmonic 1.398 378.6 gaff nan nan
+bondterm c_3ah c_3ah harmonic 1.398 378.6 gaff nan nan
+bondterm c_3ah h_1a harmonic 1.086 395.7 gaff nan nan
+bondterm c_3a n_3=o2 harmonic 1.469 257.4 gaff nan nan
+bondterm n_3=o2 o_1no harmonic 1.226 367.9 gaff nan nan
+bondterm c_4n c_4o harmonic 1.538 232.5 gaff nan nan
+bondterm c_4o o_2h harmonic 1.423 293.4 gaff nan nan
+bondterm c_4o h_1c4ew harmonic 1.097 375.9 gaff nan nan
+bondterm o_2h h_1o harmonic 0.973 563.5 gaff nan nan
+
+angleterm c_4h3 c_4n n_3xa harmonic 110.46 83.5 gaff nan nan
+angleterm c_4h3 c_4n h_1c4ew harmonic 109.56 46.9 gaff nan nan
+angleterm c_4n c_4h3 h_1c4 harmonic 109.8 46.8 gaff nan nan
+angleterm c_4n n_3xa c_4nm harmonic 114.51 65.1 gaff nan nan
+angleterm c_4n n_3xa c_3a harmonic 119.98 65.2 gaff nan nan
+angleterm n_3xa c_4n h_1c4ew harmonic 109.79 61.2 gaff nan nan
+angleterm n_3xa c_4nm h_1c4ew harmonic 109.79 61.2 gaff nan nan
+angleterm n_3xa c_3a c_3ah harmonic 120.95 86.2 gaff nan nan
+angleterm c_4nm n_3xa c_3a harmonic 119.98 65.2 gaff nan nan
+angleterm c_3a c_3ah c_3ah harmonic 120.02 68.8 gaff nan nan
+angleterm c_3a c_3ah h_1a harmonic 119.88 48.7 gaff nan nan
+angleterm c_3ah c_3a c_3ah harmonic 120.02 68.8 gaff nan nan
+angleterm c_3ah c_3ah h_1a harmonic 119.88 48.7 gaff nan nan
+angleterm c_3ah c_3a n_3=o2 harmonic 119.01 84.2 gaff nan nan
+angleterm c_3a n_3=o2 o_1no harmonic 117.76 85.9 gaff nan nan
+angleterm o_1no n_3=o2 o_1no harmonic 125.08 116.6 gaff nan nan
+angleterm h_1c4 c_4h3 h_1c4 harmonic 107.58 39.0 gaff nan nan
+angleterm h_1c4ew c_4n h_1c4ew harmonic 108.46 38.8 gaff nan nan
+angleterm h_1c4ew c_4nm h_1c4ew harmonic 108.46 38.8 gaff nan nan
+angleterm n_3xa c_4n c_4o harmonic 110.46 83.5 gaff nan nan
+angleterm c_4n c_4o o_2h harmonic 110.19 84.6 gaff nan nan
+angleterm c_4n c_4o h_1c4ew harmonic 109.56 46.9 gaff nan nan
+angleterm c_4o c_4n h_1c4ew harmonic 109.56 46.9 gaff nan nan
+angleterm c_4o o_2h h_1o harmonic 107.26 49.0 gaff nan nan
+angleterm o_2h c_4o h_1c4ew harmonic 110.26 62.5 gaff nan nan
+angleterm c_3ah c_3ah c_3ah harmonic 120.02 68.8 gaff nan nan
+angleterm h_1c4ew c_4o h_1c4ew harmonic 108.46 38.8 gaff nan nan
+
+dihedralterm c_4h3 c_4n n_3xa c_4nm amber -0.7768698849421676 -0.2696763223875644 -1.0583164818312474 -0.06676889643675178 Fit nan nan
+dihedralterm c_4h3 c_4n n_3xa c_3a amber -0.053688571749873085 -0.6866457141332044 -0.0974734612417373 -0.5890902211213555 Fit nan nan
+dihedralterm c_4n n_3xa c_4nm h_1c4ew amber 0.0 0.0 0.0 0.0 gaff nan nan
+dihedralterm c_4n n_3xa c_3a c_3ah amber 0.002534190037827563 1.0583721250039293 -0.13369946502756921 -0.18739121212430054 Fit nan nan
+dihedralterm n_3xa c_4n c_4h3 h_1c4 amber 0.0 0.0 0.1556 0.0 gaff nan nan
+dihedralterm n_3xa c_3a c_3ah c_3ah amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm n_3xa c_3a c_3ah h_1a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_4nm n_3xa c_4n h_1c4ew amber 0.04624239039702306 -0.6174997195183698 0.5047257618346603 -1.124684629318188 Fit nan nan
+dihedralterm c_4nm n_3xa c_3a c_3ah amber -0.15680270901885815 2.3296097792150157 -1.1938290965125515 0.011214950911453523 Fit nan nan
+dihedralterm c_3a n_3xa c_4n h_1c4ew amber 0.07366310757838375 -0.8473252726413386 0.11616140795461795 -0.8168694990492716 Fit nan nan
+dihedralterm c_3a n_3xa c_4nm h_1c4ew amber 0.0 -0.332 0.0 0.0 gaff nan nan
+dihedralterm c_3a c_3ah c_3ah c_3a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3a c_3ah c_3ah h_1a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3ah c_3a c_3ah c_3ah amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3ah c_3a c_3ah h_1a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3ah c_3ah c_3a n_3=o2 amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3ah c_3a n_3=o2 o_1no amber -0.001373770377288204 1.1956603272640227 0.03544751631458797 0.07947071175057624 Fit nan nan
+dihedralterm n_3=o2 c_3a c_3ah h_1a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm h_1c4 c_4h3 c_4n h_1c4ew amber 0.0 0.0 0.1556 0.0 gaff nan nan
+dihedralterm h_1a c_3ah c_3ah h_1a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_4nm n_3xa c_4n c_4o amber 0.7656538369639905 -0.9584782638320121 0.7879381234734962 -0.6902427737655047 Fit nan nan
+dihedralterm n_3xa c_4n c_4o o_2h amber 0.016374512381244394 0.04600369629531065 -0.6689019935597441 0.4289923192245738 Fit nan nan
+dihedralterm n_3xa c_4n c_4o h_1c4ew amber -0.09965769468854128 0.5144142481323489 -1.4141022624523614 -0.26726347346276597 Fit nan nan
+dihedralterm c_4n c_4o o_2h h_1o amber 0.24041525351975648 -0.4782882041395035 0.0556408487477861 -0.0993970686540958 Fit nan nan
+dihedralterm c_4o c_4n n_3xa c_3a amber 0.17522928813182326 0.3691588433326846 0.6036624500521414 -1.0521190373400853 Fit nan nan
+dihedralterm o_2h c_4o c_4n h_1c4ew amber 0.9023317946897337 -0.7131420755158158 0.7191689382927029 0.1467992248110765 Fit nan nan
+dihedralterm c_3a c_3ah c_3ah c_3ah amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3ah c_3ah c_3ah c_3ah amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm c_3ah c_3ah c_3ah h_1a amber 0.0 3.625 0.0 0.0 gaff nan nan
+dihedralterm h_1c4ew c_4n c_4o h_1c4ew amber -0.8428223466432521 0.17494752408175454 0.8739249647902831 -0.27955814351917463 Fit nan nan
+dihedralterm h_1c4ew c_4o o_2h h_1o amber -0.12660396256681927 -0.05725212285826388 0.4795433652387604 0.15123478459636772 Fit nan nan
+
+improperterm c_3a n_3xa c_3ah c_3ah amber 1.1 gaff nan nan
+improperterm c_3ah c_3a c_3ah h_1a amber 1.1 gaff nan nan
+improperterm c_3a c_3ah n_3=o2 c_3ah amber 1.1 gaff nan nan
+improperterm n_3=o2 c_3a o_1no o_1no amber 1.1 gaff nan nan
+improperterm c_3ah c_3ah c_3ah h_1a amber 1.1 gaff nan nan
+

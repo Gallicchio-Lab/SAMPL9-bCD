@@ -1,0 +1,10 @@
+#!/bin/bash
+openmm_dir=/home/software/openmm-7.6.0-ATMMetaForce-0.2.4-CUDA-10.1/openmm-7.6.0
+pythondir=/home/users/egallicchio/miniconda3-centos
+export OPENMM_PLUGIN_DIR=${openmm_dir}/lib/plugins
+export LD_LIBRARY_PATH=${openmm_dir}/lib:${openmm_dir}/lib/plugins:$LD_LIBRARY_PATH
+if [ -d /usr/local/cuda ] ; then
+    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${openmm_dir}/lib:${openmm_dir}/lib/plugins
+fi
+export PYTHONPATH=${openmm_dir}/lib/python3.7/site-packages:$PYTHONPATH
+${pythondir}/bin/python "$@"

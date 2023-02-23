@@ -1,0 +1,44 @@
+ADDATOMTYPES {
+    { "PA"    "C"    "sp2" }
+    { "PB"    "C"    "sp2" }
+    { "PD"    "C"    "sp2" }
+    { "PE"    "C"    "sp2" }
+    { "PF"    "C"    "sp2" }
+    { "PH"    "C"    "sp2" }
+    { "PI"    "C"    "sp2" }
+    { "PJ"    "C"    "sp2" }
+    { "PK"    "C"    "sp2" }
+    { "PN"    "C"    "sp2" }
+    { "PO"    "C"    "sp2" }
+    { "PP"    "C"    "sp2" }
+    { "PQ"    "C"    "sp3" }
+    { "PV"    "C"    "sp3" }
+    { "PW"    "C"    "sp3" }
+    { "PX"    "C"    "sp3" }
+    { "PY"    "C"    "sp3" }
+    { "PZ"    "N"    "sp3" }
+    { "QB"    "N"    "sp3" }
+    { "QC"    "S"    "sp3" }
+    { "QD"    "H"    "sp3" }
+    { "QF"    "H"    "sp3" }
+    { "QG"    "H"    "sp3" }
+    { "QH"    "H"    "sp3" }
+    { "QJ"    "H"    "sp3" }
+    { "QK"    "H"    "sp3" }
+    { "QL"    "H"    "sp3" }
+    { "QM"    "H"    "sp3" }
+    { "QN"    "H"    "sp3" }
+    { "QO"    "H"    "sp3" }
+    { "QP"    "H"    "sp3" }
+    { "QQ"    "H"    "sp3" }
+    { "QS"    "H"    "sp3" }
+    { "QT"    "H"    "sp3" }
+    { "QU"    "H"    "sp3" }
+    { "QV"    "H"    "sp3" }
+    { "QW"    "H"    "sp3" }
+    { "QX"    "H"    "sp3" }
+    { "QY"    "H"    "sp3" }
+    { "QZ"    "H"    "sp3" }
+    { "RB"    "H"    "sp3" }
+}
+

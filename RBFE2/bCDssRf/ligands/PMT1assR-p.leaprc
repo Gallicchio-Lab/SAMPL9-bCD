@@ -1,0 +1,44 @@
+ADDATOMTYPES {
+    { "AA"    "C"    "sp2" }
+    { "AB"    "C"    "sp2" }
+    { "AD"    "C"    "sp2" }
+    { "AE"    "C"    "sp2" }
+    { "AF"    "C"    "sp2" }
+    { "AH"    "C"    "sp2" }
+    { "AI"    "C"    "sp2" }
+    { "AJ"    "C"    "sp2" }
+    { "AK"    "C"    "sp2" }
+    { "AN"    "C"    "sp2" }
+    { "AO"    "C"    "sp2" }
+    { "AP"    "C"    "sp2" }
+    { "AQ"    "C"    "sp3" }
+    { "AV"    "C"    "sp3" }
+    { "AW"    "C"    "sp3" }
+    { "AX"    "C"    "sp3" }
+    { "AY"    "C"    "sp3" }
+    { "AZ"    "N"    "sp3" }
+    { "BB"    "N"    "sp3" }
+    { "BC"    "S"    "sp3" }
+    { "BD"    "H"    "sp3" }
+    { "BF"    "H"    "sp3" }
+    { "BG"    "H"    "sp3" }
+    { "BH"    "H"    "sp3" }
+    { "BJ"    "H"    "sp3" }
+    { "BK"    "H"    "sp3" }
+    { "BL"    "H"    "sp3" }
+    { "BM"    "H"    "sp3" }
+    { "BN"    "H"    "sp3" }
+    { "BO"    "H"    "sp3" }
+    { "BP"    "H"    "sp3" }
+    { "BQ"    "H"    "sp3" }
+    { "BS"    "H"    "sp3" }
+    { "BT"    "H"    "sp3" }
+    { "BU"    "H"    "sp3" }
+    { "BV"    "H"    "sp3" }
+    { "BW"    "H"    "sp3" }
+    { "BX"    "H"    "sp3" }
+    { "BY"    "H"    "sp3" }
+    { "BZ"    "H"    "sp3" }
+    { "CB"    "H"    "sp3" }
+}
+

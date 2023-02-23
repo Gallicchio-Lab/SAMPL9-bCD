@@ -1,0 +1,4 @@
+for jobname in bCDpsS-PMZ1*  ; do
+    echo "Prepping $jobname"
+    ( cd ${jobname} &&  ../../scripts/runopenmm ${jobname}_mintherm.py && ../../scripts/runopenmm ${jobname}_mdlambda.py )  || exit 1
+done 

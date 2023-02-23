@@ -1,0 +1,13 @@
+egallicchio@scilla:/u1/users/egallicchio/Dropbox/sims/SAMPL9/work/FFEngine/mCDPHMPMZ/complexes/mcd-PHM0aspS-PMZ1aspS>
+cp r13/mcd-PHM0aspS-PMZ1aspS_ckpt.xml ~/Dropbox/sims/SAMPL9/work/FFEngine/postc/mCDspSf/receptor/mcd-PHM0aspS-PMZ1aspS-r13_ckpt.xml
+
+egallicchio@scilla:~/Dropbox/sims/SAMPL9/work/FFEngine/postc/mCDspSf/receptor>
+python ../scripts/applycoord_from_xml.py ~/Dropbox/sims/SAMPL9/work/FFEngine/roivant/all_receptors/bCDH26DM/ligand.sdf mcd-PHM0aspS-PMZ1aspS-r13_ckpt.xml 0 '-21' '89' '23' > mCDspS.sdf
+bash ../scripts/setupreceptor.sh
+
+egallicchio@scilla:~/Dropbox/sims/SAMPL9/work/FFEngine/postc/mCDspSf/ligands>
+cp ~/Dropbox/SAMPL9-eglab/mCD/ligsdfs/PMZ1aspS.sdf .
+python ../scripts/applycoord_from_xml.py PMZ1aspS.sdf ../receptor/mcd-PHM0aspS-PMZ1aspS-r13_ckpt.xml 215 '9' '89' '23' > PMZ1apsS-q.sdf
+
+#align ligands in Maestro and export sdfs
+bash ../scripts/setupligands.sh
