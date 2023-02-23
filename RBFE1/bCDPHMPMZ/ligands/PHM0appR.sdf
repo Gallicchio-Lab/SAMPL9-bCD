@@ -1,0 +1,138 @@
+PHM0appR
+                    3D
+ Schrodinger Suite 2019-4.
+ 26 28  0  0  1  0            999 V2000
+   27.2154  111.3116   39.2005 C   0  0  0  0  0  0
+   28.0013  114.7207   44.4943 C   0  0  0  0  0  0
+   25.9037  111.7031   38.9636 C   0  0  0  0  0  0
+   26.7233  115.2656   44.5074 C   0  0  0  0  0  0
+   28.1009  112.1841   39.8305 C   0  0  0  0  0  0
+   28.6140  114.4101   43.2821 C   0  0  0  0  0  0
+   25.4762  112.9592   39.3781 C   0  0  0  0  0  0
+   26.0549  115.4797   43.3074 C   0  0  0  0  0  0
+   27.7074  113.4745   40.2425 C   0  0  0  0  0  0
+   27.9728  114.6333   42.0445 C   0  0  0  0  0  0
+   26.3577  113.8310   40.0217 C   0  0  0  0  0  0
+   26.6616  115.1581   42.0908 C   0  0  0  0  0  0
+   30.0406  114.6516   40.4890 C   0  0  0  0  0  0
+   28.6173  114.4047   40.8028 N   0  0  0  0  0  0
+   25.7196  115.3492   40.6245 S   0  0  0  0  0  0
+   27.5496  110.3316   38.8930 H   0  0  0  0  0  0
+   28.5219  114.5436   45.4239 H   0  0  0  0  0  0
+   25.2155  111.0297   38.4743 H   0  0  0  0  0  0
+   26.2463  115.5097   45.4452 H   0  0  0  0  0  0
+   29.1013  111.8178   39.9834 H   0  0  0  0  0  0
+   29.6093  113.9997   43.3397 H   0  0  0  0  0  0
+   24.4471  113.2465   39.2165 H   0  0  0  0  0  0
+   25.0511  115.8795   43.3260 H   0  0  0  0  0  0
+   30.6057  114.7096   41.4204 H   0  0  0  0  0  0
+   30.1554  115.6611   40.0905 H   0  0  0  0  0  0
+   30.4454  113.8983   39.8131 H   0  0  0  0  0  0
+  1  3  2  0  0  0
+  1  5  1  0  0  0
+  1 16  1  0  0  0
+  2  4  2  0  0  0
+  2  6  1  0  0  0
+  2 17  1  0  0  0
+  3  7  1  0  0  0
+  3 18  1  0  0  0
+  4  8  1  0  0  0
+  4 19  1  0  0  0
+  5  9  2  0  0  0
+  5 20  1  0  0  0
+  6 10  2  0  0  0
+  6 21  1  0  0  0
+  7 11  2  0  0  0
+  7 22  1  0  0  0
+  8 12  2  0  0  0
+  8 23  1  0  0  0
+  9 11  1  0  0  0
+  9 14  1  0  0  0
+ 10 12  1  0  0  0
+ 10 14  1  0  0  0
+ 11 15  1  0  0  0
+ 12 15  1  0  0  0
+ 13 14  1  0  0  0
+ 13 24  1  0  0  0
+ 13 25  1  0  0  0
+ 13 26  1  0  0  0
+M  END
+> <s_m_entry_id>
+195
+
+> <s_m_entry_name>
+PMZ.1
+
+> <s_m_Source_Path>
+/nfs/egallicchio/Dropbox/sims/SAMPL9
+
+> <s_m_Source_File>
+PMZ.mol2
+
+> <i_m_Source_File_Index>
+1
+
+> <s_m_source_file>
+ligprep_4.maegz
+
+> <i_m_source_file_index>
+3
+
+> <i_lp_mmshare_version>
+47013
+
+> <s_epik_input>
+W2NIXTFbY0hdW2NIXVtjSF1jKGMxMilTYzNjKFtjSF1bY0hdW2NIXVtjSF0zKU4yW0NIMl1bQ0gyXVtDSDJdTihbQ0gzXSlbQ0gzXQ==
+
+> <s_epik_cmdline>
+J2VwaWtfcHl0aG9uJywgJy1waHQnLCAnNC4wJywgJy1waCcsICc3LjQnLCAnLXRuJywgJzgnLCAnLW1hJywgJzIwMCcsICctaW1hZScsICc8aW5maWxlLm1hZT4nLCAnLW9tYWUnLCAnPG91dGZpbGUubWFlPic=
+
+> <r_epik_Ionization_Penalty>
+  0.0034
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0034
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  0.0024
+
+> <r_epik_Charging_Adjusted_Penalty>
+0.0058317545360184
+
+> <i_epik_Tot_Q>
+1
+
+> <i_epik_Tot_abs_Q>
+1
+
+> <i_f3d_flags>
+0
+
+> <s_lp_Force_Field>
+OPLS3e
+
+> <r_lp_Energy>
+55.741628
+
+> <b_lp_Chiralities_Consistent>
+1
+
+> <s_lp_Variant>
+PMZ-1
+
+> <s_m_job_name>
+ligprep_4
+
+> <s_m_subgroup_title>
+PHM0a
+
+> <s_m_subgroupid>
+PHM0a
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$

@@ -1,0 +1,29 @@
+ADDATOMTYPES {
+    { "TA"    "C"    "sp2" }
+    { "TB"    "C"    "sp2" }
+    { "TD"    "C"    "sp2" }
+    { "TE"    "C"    "sp2" }
+    { "TF"    "C"    "sp2" }
+    { "TH"    "C"    "sp2" }
+    { "TI"    "C"    "sp2" }
+    { "TJ"    "C"    "sp2" }
+    { "TK"    "C"    "sp2" }
+    { "TN"    "C"    "sp2" }
+    { "TO"    "C"    "sp2" }
+    { "TP"    "C"    "sp2" }
+    { "TQ"    "C"    "sp3" }
+    { "TV"    "N"    "sp3" }
+    { "TW"    "S"    "sp3" }
+    { "TX"    "H"    "sp3" }
+    { "TY"    "H"    "sp3" }
+    { "TZ"    "H"    "sp3" }
+    { "UB"    "H"    "sp3" }
+    { "UC"    "H"    "sp3" }
+    { "UD"    "H"    "sp3" }
+    { "UF"    "H"    "sp3" }
+    { "UG"    "H"    "sp3" }
+    { "UH"    "H"    "sp3" }
+    { "UJ"    "H"    "sp3" }
+    { "UK"    "H"    "sp3" }
+}
+
